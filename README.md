@@ -1,2 +1,2 @@
 # cloudapp
-Portfolio Project For Cloud Application's Development
+Portfolio Project For Cloud Application Development at Oregon State University
