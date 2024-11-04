@@ -31,3 +31,19 @@ To signout add "/logout" to the end of the url.
 # Postman Tests
 
 Due to the application being server only, I used Post-man tests to test for issues that might occur with the application.
+
+## Users
+
+![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
+
+## Boats
+
+![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
+
+## Loads
+
+![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
+
+## Assigning Loads to Boats
+
+![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
