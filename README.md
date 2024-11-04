@@ -16,20 +16,18 @@ Due to the application being server only, I used Post-man tests to test for issu
 
 Step 1.) Head to the main site at: https://sabinand-portfolio.uc.r.appspot.com/
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20out.png)
 
 Step 2.) At the end of the url put in: /login
 
-![screenshot](screenshot.png)
-
 Step 3.) Create an account or sign in with the sign in page:
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/auth0%20signin.png) 
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/auth0%20signup.png) 
 
 You should get a resulting page like this:
 
-![screenshot](screenshot.png)
+![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
 
 To signout add "/logout" to the end of the url.
