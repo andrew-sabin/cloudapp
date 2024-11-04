@@ -43,6 +43,9 @@ After signing up, users can get custom JWT tags that will allow them to edit the
 What the decrypted JWT tag provides.
 
 ## Boats
+Users can create, read, update and delete various boats.
+
+POST Request For A Boat:
 
 ![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
 
