@@ -37,8 +37,9 @@ Due to the application being server only, I used Post-man tests to test for issu
 After signing up, users can get custom JWT tags that will allow them to edit their own boats and floats.
 
 ![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/users/JWT%20User%201.png)
-What the decrypted JWT tag provides:
+
 ![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/users/JWT%20Token%201%20Payload%20Data.png?raw=true)
+What the decrypted JWT tag provides.
 
 ## Boats
 
