@@ -47,12 +47,59 @@ Users can create, read, update and delete various boats.
 
 POST Request For A Boat:
 
-![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/adding%20boats/POST%20Request.png?raw=true)
+
+Resulting Creation:
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/adding%20boats/JWT%20Boat%201.png?raw=true)
+
+Google Datastore:
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/adding%20boats/JWT%20Boat%201.2.png?raw=true)
 
 ## Loads
+Users can create, read, update, and delete various loads.
 
-![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loads/POST%20Load.png?raw=true)
 
-## Assigning Loads to Boats
+Resulting Creation:
 
-![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loads/JWT1_GetLoad1_No_carry.png?raw=true)
+
+Google Datastore:
+
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loads/Loads_GDS.png?raw=true)
+
+## Assigning Load to Boat
+Users can load items onto boats.
+
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loading%20onto%20boats/PUT%20Load%20on%20Boat.png?raw=true)
+
+Note: {app_url} is the website url, and the boat_id is the boat the load with the corresponding load_id is putting on.
+
+Postman result:
+
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loading%20onto%20boats/Loading%20a%20Boat%20Example.png?raw=true)
+
+Google Datastore:
+
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loading%20onto%20boats/Loading%20a%20Boat%20Example%20GDS.png?raw=true)
+
+## Assigning Multiple Loads to the Same Boat
+Users can also assign multiple loads to the same boat
+
+Postman:
+
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loading%20onto%20boats/boat%20with%20multiple%20loads%20PM.png?raw=true)
+
+Google Datastore:
+
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loading%20onto%20boats/boat%20with%20multiple%20loads.png?raw=true)
+
+## Pagination
+Users can see all the boats created with a GET request of /boats:
+
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/boats%20pagination%2001.png?raw=true)
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/boats%20pagination%2002.png?raw=true)
+
+GET request for /loads:
+
+![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/loads%20pagination.png?raw=true)
