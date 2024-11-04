@@ -2,15 +2,11 @@
 Portfolio Project For Cloud Application Development at Oregon State University
 
 # Full Description
-Created a server application where users can create, read, update, and delete different different boats and floats. 
+Created a server application where users can create, read, update, and delete different different boats and load. 
 
-It checks to make sure that each boat and float is created by the specific user by making sure that the JWT matches the user with their specific float and boat.
+It checks to make sure that each boat and load is created by the specific user by making sure that the JWT matches the user with their specific float and boat.
 
-The application is hosted on Google Cloud Services.
-
-# Postman Tests
-
-Due to the application being server only, I used Post-man tests to test for issues that might occur with the application.
+The application is hosted on Google Cloud Services and uses Google Datastore to store JSON Data.
 
 ## Creating an Account
 
@@ -31,3 +27,7 @@ You should get a resulting page like this:
 ![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/main%20page/logged%20in%202.png)
 
 To signout add "/logout" to the end of the url.
+
+# Postman Tests
+
+Due to the application being server only, I used Post-man tests to test for issues that might occur with the application.
