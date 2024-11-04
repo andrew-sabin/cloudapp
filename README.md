@@ -39,6 +39,7 @@ After signing up, users can get custom JWT tags that will allow them to edit the
 ![screenshot](https://raw.githubusercontent.com/andrew-sabin/cloudapp/refs/heads/main/screenshots/users/JWT%20User%201.png)
 
 ![screenshot](https://github.com/andrew-sabin/cloudapp/blob/main/screenshots/users/JWT%20Token%201%20Payload%20Data.png?raw=true)
+
 What the decrypted JWT tag provides.
 
 ## Boats
