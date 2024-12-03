@@ -11,10 +11,6 @@ const LOAD = "Load";
 
 const checkJWT = require('./checkJWT');
 
-// const CLIENT_ID = 'LJU1XOfhaIpSEYEG4Q1ecz1XhnBazBe1';
-// const CLIENT_SECRET = 'Pnf8V9HEXOUXoQputS79P97EIIodE0zQBULFICG88Ub_BjShjofr2eeEWRFe7UOW';
-// const DOMAIN = 'sabinand-cs493-module7.us.auth0.com';
-
 router.use(bodyParser.json());
 
 
